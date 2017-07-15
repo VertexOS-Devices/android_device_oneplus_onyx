@@ -203,6 +203,12 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+    
+# OTA Updates
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.ota.romname=VertexOS-Onyx \
+    ro.ota.version=$(shell date -u +%Y%m%d) \
+    ro.ota.manifest=https://raw.githubusercontent.com/VertexOS/android_extras_vertexota/n/vertex_oneplusx.xml
 
 # Power
 PRODUCT_PACKAGES += \
