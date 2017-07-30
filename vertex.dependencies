@@ -1,8 +1,8 @@
 [
   {
-    "repository": "Tesla-M-Devices/device_oppo_common",
+    "repository": "CheckYourScreen/android_device_oppo_common",
     "target_path": "device/oppo/common",
-    "branch": "n7.1"
+    "branch": "jdc"
   },
   {
     "repository": "CheckYourScreen/Arsenic.Kernel",
@@ -12,11 +12,6 @@
   {
     "repository": "BigTopKrazies/vendor_oneplus-onyx",
     "target_path": "vendor/oneplus",
-    "branch": "n7.1"
-  },
-  {
-    "repository": "BigTopKrazies/proprietary_vendor_qcom_binaries",
-    "target_path": "vendor/qcom/binaries",
     "branch": "n7.1"
   },
   {
